@@ -1,0 +1,14 @@
+name: This is first action for learning github action
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: use echo command
+        run: echo "hello world, This is my first github action"
+      
+      - name: show time
+        run: date
+        
+      - name: say good bye
+        run: echo "good bye."
