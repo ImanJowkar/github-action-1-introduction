@@ -10,5 +10,13 @@ jobs:
       - name: show time
         run: date
         
-      - name: say good bye
-        run: echo "good bye."
+      - name: say good bye from first job
+        run: echo "good bye from first job."
+        
+  second-job:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: use cat command
+        run: cat /etc/os-release
+      - name: say good bye from seond job
+        run: echo "good bye from seond job"
