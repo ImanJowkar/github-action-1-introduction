@@ -21,7 +21,7 @@ Overall, workflows in GitHub Actions provide a powerful and flexible way to auto
 
 
 
-![image1](image/2.png)
+![image2](image/2.PNG)
 
 ### Here is a simple action
 ```
